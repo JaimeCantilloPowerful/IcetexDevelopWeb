@@ -1,0 +1,8 @@
+.producto{
+    background-color: lightblue;
+    display: inline-flex;
+    width: 150px;
+    margin-right: 15px;
+    height: 150px;
+    flex-direction: column;
+}

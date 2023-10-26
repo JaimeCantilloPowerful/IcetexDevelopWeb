@@ -46,3 +46,4 @@ for(i=0 ; i>inventario.length; i++){
     document.body.appendChild(divPadre);
 } 
 
+
