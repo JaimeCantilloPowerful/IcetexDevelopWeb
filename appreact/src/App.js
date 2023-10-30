@@ -5,16 +5,19 @@ import {Cuenta} from "./CuentaBanco/Cuenta";
 import {CarritoCompras} from './CarritoDeCompras/CarritoCompras';
 import {SuperMercado} from './Productos/Productos';
 import {useState} from 'react';
+import { ToDo } from './ToDo/ToDo';
 
 function App() {
   /* let primerNombre = "Esteban"; */
   const [itemSeleccionado, useItems] = useState([]);
   return (
-    <div>
+/*     <div>
       <Cuenta nombre = "Cantillo" saldo = {10000}></Cuenta>
       <SuperMercado cambio={useItems}></SuperMercado>
       <CarritoCompras productoSeleccionado={itemSeleccionado}></CarritoCompras> 
-    </div>
+    </div> */
+
+    <ToDo></ToDo>
   );
 
   
