@@ -4,7 +4,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Login } from "./Components/Login";
 
-
 function Card(props) {
   return (
     <div class="card">
@@ -22,7 +21,6 @@ function Card(props) {
     </div>
   );
 }
-
 function App() {
   const [data, setData] = useState([]);
   const [loaded, setLoaded] = useState(false);
@@ -50,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <div className="container d-flex justify-content-around">
-        <Login ></Login>
+        <Login></Login>
         <div className="col-3">{data}</div>
       </div>
     </div>
